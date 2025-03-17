@@ -1,0 +1,44 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Custom Bootstrap Overrides */
+.btn-success {
+  background-color: #2E8B57 !important;
+  border-color: #2E8B57 !important;
+}
+
+.btn-success:hover {
+  background-color: #3CB371 !important;
+  border-color: #3CB371 !important;
+}
+
+.text-success {
+  color: #2E8B57 !important;
+}
+
+.bg-success {
+  background-color: #2E8B57 !important;
+}

@@ -1,0 +1,20 @@
+import React from 'react';
+import './Dashboard.css';
+
+// Import existing components
+import ComponentA from '../ComponentA'; // Replace with actual component paths
+import ComponentB from '../ComponentB'; // Replace with actual component paths
+// Add more imports as needed
+
+const Dashboard = () => {
+    return (
+        <div className="dashboard">
+            <h1>Dashboard</h1>
+            <ComponentA />
+            <ComponentB />
+            {/* Render other components here */}
+        </div>
+    );
+};
+
+export default Dashboard;
