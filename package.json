@@ -8,9 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "node server/server.js",
-    "server:dev": "nodemon server/server.js",
-    "start": "node server/server.js",
+    "server": "node api/server.js",
+    "server:dev": "nodemon api/server.js",
+    "start": "node api/server.js",
     "dev:full": "concurrently \"npm run server:dev\" \"npm run dev\""
   },
   "dependencies": {
